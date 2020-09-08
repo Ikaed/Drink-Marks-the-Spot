@@ -1,0 +1,209 @@
+html, body {
+    height: 100%;
+    width: 100%;
+
+}
+
+.header {
+    width:100%;
+    height: 10%;
+    background-color: #0b773c;
+    text-align: center;
+    position: relative;
+
+}
+.logo{
+    height: 150px;
+    position: relative;
+    z-index: 100000;
+}
+.navigation {
+    width: 100%;
+    height: 100%;
+    background-color: #0b773c;
+  display: grid;
+
+    text-align: center;
+    align-content: space-evenly;
+    font-family: 'Frank Ruhl Libre', serif;
+
+}
+p{
+    cursor: pointer;
+    font-weight: bold;
+    margin: 10px;
+    color: #fcd205;
+    border: 4px solid #fcd205;
+    background-color: #00813c;
+    font-size: 2em;
+}
+#mapid {
+    width: 100%;
+    height: 100%;
+    float: right;
+
+}
+.content{
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    height: 90%;
+    width: 100%;
+}
+#modal{
+    min-width: 250px;
+   width: 16.666666666666666%;
+    height: 90%;
+    background-color: #0b773c;
+    position: absolute;
+    z-index: 50000;
+    display: grid;
+    grid-template-rows: 20% 80%;
+
+}
+
+#modal img{
+    border: 4px solid #fcd205;
+    width: 90%;
+}
+#modal h1{
+    color: #fcd205;
+}
+#modal #store_options{
+    color: #fcd205;
+    display: grid;
+    grid-gap: 10px;
+
+}
+#modal button{
+    cursor: pointer;
+    margin: 10px;
+    font-weight: bold;
+    color: #fcd205;
+    border: 4px solid #fcd205;
+    background-color: #00813c;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Frank Ruhl Libre', serif;
+
+}
+.store_img{
+    width: 150px;
+}
+
+#modal_trip{
+    display: inline-grid;
+position: absolute;
+    z-index: 100000;
+  border: 1px solid red;
+    background-color: white;
+    resize: horizontal;
+
+    bottom: 0px;
+    width: 100%;
+    height: 200px;
+    overflow-x: auto
+
+}
+#modal_trip_content{
+     display: grid;
+    grid-template-rows: 25% 25% 25% 25%;
+    padding: 10px;
+    justify-items: center;
+    text-align: center;
+
+}
+h4{
+      font-weight: bold;
+    font-size: 1em;
+}
+
+.position{
+    margin: 8px 0 0 0;
+        z-index: 500000;
+    width: 30px;
+    height: 30px;
+}
+
+#transport{
+ font-size: 0.9em;
+}
+
+#weather{
+    margin: 0 15px 0 15px;
+    color: #fcd205;
+    font-size: 1.2em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+;
+}
+
+#icon {
+    border: none !important;
+    width: 120px !important;
+    height: auto;
+
+}
+h2{
+    padding: 0 50% 0 0;
+     color: #fcd205;
+    font-size: 6em;
+    font-weight: bold;
+}
+
+#side{
+    text-align: center;
+    width: 100%;
+    height:90vh;
+}
+
+#modal_crime{
+    display: grid;
+    width: 100%;
+    height:90vh;
+    border: 1px solid black;
+    grid-auto-rows: 17% 83%;
+}
+
+#crime_alert{
+    border-bottom:1px solid black;
+    padding: 8px;
+}
+h5{
+    font-family: 'Tinos', serif;
+    font-size: 1.6em;
+}
+
+h6{
+    font-family: 'Tinos', serif;
+    font-size: 1.3em;
+}
+
+#crime_title{
+    font-family: 'Tinos', serif;
+    font-size: 2em;
+    border-bottom:1px solid black;
+    padding: 8px;
+
+}
+
+#crime_content{
+    height:100%;
+    overflow: scroll;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

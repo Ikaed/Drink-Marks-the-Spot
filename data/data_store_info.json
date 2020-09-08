@@ -1,0 +1,72 @@
+{
+  "store_gotland": {
+    "id" : "0902",
+    "name" : "GOTLAND",
+    "image" : "gotland.png",
+    "city_id" : "2662689"
+  },
+   "store_goteborg": {
+     "id" : "1404",
+    "name" : "GÖTEBORG",
+    "image" : "goteborg.png",
+    "city_id" : "2711537"
+
+  },
+   "store_stockholm": {
+     "id" : "0232",
+    "name" : "STOCKHOLM",
+    "image" : "stockholm.png",
+    "city_id" : "2673730"
+  
+
+  },
+   "store_malmo": {
+     "id" : "1202",
+    "name" : "MALMÖ",
+    "image" : "malmo.png",
+    "city_id" : "2692969"
+
+  },
+   "store_uppsala": {
+     "id" : "0302",
+    "name" : "UPPSALA",
+    "image" : "uppsala.png",
+    "city_id" : "2666199"
+
+  },
+   "store_vaxsjo": {
+     "id" : "0701",
+    "name" : "VÄXSJÖ",
+    "image" : "vaxsjo.png",
+    "city_id" : "2664454"
+
+  },
+   "store_vasteras": {
+     "id" : "1901",
+    "name" : "VÄSTERÅS",
+    "image" : "vasteras.png",
+    "city_id" : "2673730"
+
+  },
+   "store_norrkoping": {
+     "id" : "0513",
+    "name" : "NORRKÖPING",
+    "image" : "norrkoping.png",
+    "city_id" : "2688368"
+
+  },
+   "store_boden": {
+     "id" : "2505",
+    "name" : "BODEN",
+    "image" : "boden.png",
+    "city_id" : "606531"
+
+  },
+   "store_umea": {
+     "id" : "2401",
+    "name" : "UMEÅ",
+    "image" : "umea.png",
+    "city_id" : "602150"
+
+  }
+}
